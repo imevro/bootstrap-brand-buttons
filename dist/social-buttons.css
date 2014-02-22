@@ -353,12 +353,12 @@
 /* line 5, /Users/e/Dev/social-buttons.scss/src/social-buttons.scss */
 .btn-itunes {
   background-color: transparent;
-  border-color: #efefeb;
-  color: #efefeb; }
+  border-color: #525152;
+  color: #525152; }
   /* line 6, /Users/e/Dev/social-buttons.scss/src/mixins */
   .btn-itunes:hover {
-    background-color: #efefeb;
-    border-color: #efefeb;
+    background-color: #525152;
+    border-color: #525152;
     color: white; }
 
 /* line 5, /Users/e/Dev/social-buttons.scss/src/social-buttons.scss */
