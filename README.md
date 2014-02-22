@@ -12,7 +12,7 @@
 ### Development install
  * Clone repository `git clone https://github.com/theaqua/social-buttons.scss.git`
  * Install Grunt.js and CoffeeScript (globally): `npm install -g grunt-cli coffee-script`
- * Go to project `cd social-buttons.scss`
+ * Go to project `cd social-buttons.scss`, install dev dependencies: `npm install`
  * Run `grunt serve` or `grunt build`
 
 ### License
