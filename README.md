@@ -2,12 +2,13 @@
 ![enter image description here][1]
 
 ### Usage
- * Include [`social-buttons.min.css`][2] to your file: `<link rel="stylesheet" src="social-buttons.min.css">`
+ * Install from Bower registry: `bower install social-buttons.scss`
+ * Include [`social-buttons.min.css`][2] to your file: `<link rel="stylesheet" src="dist/social-buttons.min.css">`
  * Use as Bootstrap button: `<button class="btn btn-facebook">Facebook</button>` or `<a href="" class="btn btn-facebook">Facebook</a>`
  * You can:
   * Use different sizes: `btn-xs`, `btn-sm`, `btn-lg` or `btn-block`
   * Use with Font Awesome: `<a href="" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>`
-  * Or another, what you do with Bootstrap buttons!
+  * Or another what you do with Bootstrap buttons!
 
 ### Development install
  * Clone repository `git clone https://github.com/theaqua/social-buttons.scss.git`
