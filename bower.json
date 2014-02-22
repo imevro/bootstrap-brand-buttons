@@ -1,0 +1,23 @@
+{
+  "name": "social-buttons.scss",
+  "version": "0.0.1",
+  "homepage": "https://github.com/theaqua/social-buttons.scss",
+  "authors": [
+    "Eugene Rodionov <hello@theaqua.im>"
+  ],
+  "description": "Social buttons for Bootstrap 3",
+  "main": "dist/social-buttons.min.css",
+  "keywords": [
+    "social",
+    "bootstrap",
+    "buttons"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
