@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://rawgithub.com/FortAwesome/Font-Awesome/master/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://rawgithub.com/theaqua/social-buttons.scss/master/dist/social-buttons.min.css">
-    <link href="/styles/main.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
   </head>
   <body>
     <div class="site-wrapper">
@@ -38,7 +38,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="features-image">
-              <img src="/images/sass.svg" alt="">
+              <img src="images/sass.svg" alt="">
             </div>
             <h3>Written with SCSS</h3>
           </div>
@@ -225,10 +225,6 @@
 
     <script src="https://rawgithub.com/janl/mustache.js/master/mustache.js"></script>
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <script>
-      var array = { socials: [ "amazon", "android", "appnet", "bitcoin", "bitbucket", "blogger", "cloudapp", "creativecommons", "delicious", "digg", "disqus", "dribbble", "dropbox", "eventbrite", "eventful", "evernote", "facebook", "flattr", "flickr", "foursquare", "github", "gmail", "google", "googleplay", "googleplus", "gowalla", "grooveshark", "html5", "ie", "instapaper", "instagram", "intensedebate", "itunes", "klout", "lanyrd", "lastfm", "linkedin", "logmein", "macstore", "meetup", "myspace", "ninetyninedesigns", "opentable", "paypal", "pinboard", "pinterest", "pocket", "plurk", "podcast", "quora", "reddit", "rss", "scribd", "skype", "smashing", "songkick", "soundcloud", "spotify", "stackoverflow", "statusnet", "steam", "stripe", "stumbleupon", "tumblr", "twitter", "viadeo", "vimeo", "vk", "weibo", "wikipedia", "windows", "wordpress", "xing", "yahoo", "ycombinator", "yelp", "youtube" ] },
-          output = Mustache.render("{{#socials}} <div class=\"col-xs-3 btn-demo\"><button class=\"btn btn-block btn-lg btn-{{.}}\"><i class=\"fa fa-{{.}}\"></i> {{.}}</button></div>{{/socials}}", array);
-      document.getElementById("test").innerHTML = output;
-    </script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
