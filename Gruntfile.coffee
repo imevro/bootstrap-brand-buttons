@@ -102,6 +102,7 @@ module.exports = (grunt) ->
       server:
         files:
           ".tmp/social-buttons.css": "<%= yeoman.app %>/social-buttons.scss"
+          ".tmp/social-buttons-inversed.css": "<%= yeoman.app %>/social-buttons-inversed.scss"
 
       dist:
         options:
@@ -109,11 +110,13 @@ module.exports = (grunt) ->
 
         files:
           "dist/social-buttons.css": "<%= yeoman.app %>/social-buttons.scss"
+          "dist/social-buttons-inversed.css": "<%= yeoman.app %>/social-buttons-inversed.scss"
       min:
         options:
           outputStyle: "compressed"
         files:
           "dist/social-buttons.min.css": "<%= yeoman.app %>/social-buttons.scss"
+          "dist/social-buttons-inversed.min.css": "<%= yeoman.app %>/social-buttons-inversed.scss"
 
     
     # Run some tasks in parallel to speed up the build process

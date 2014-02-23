@@ -1,0 +1,8 @@
+@import "_variables";
+@import "_mixins";
+
+@each $social in $socials {
+  .btn-#{nth($social, 1)}-inversed {
+    @include btn-inversed( #{nth($social, 2)} );
+  }
+}
