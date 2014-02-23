@@ -8,7 +8,7 @@
  * You can:
   * Use different sizes: `btn-xs`, `btn-sm`, `btn-lg` or `btn-block`
   * Use with Font Awesome: `<a href="" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>`
-  * Or another what you do with Bootstrap buttons!
+  * Or anything else you prefer to do with Bootstrap buttons!
 
 ### Development install
  * Clone repository `git clone https://github.com/theaqua/social-buttons.scss.git`
