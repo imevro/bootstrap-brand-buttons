@@ -1,4 +1,4 @@
-# [Social buttons for Bootstrap 3](http://theaqua.github.io/social-buttons.scss/)
+# [Social buttons for Bootstrap](http://theaqua.github.io/social-buttons.scss/)
 ![enter image description here][1]
 
 ### Usage
