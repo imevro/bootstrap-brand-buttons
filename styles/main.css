@@ -19,11 +19,16 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: rgb(85, 164, 242);
   border-bottom: 1px solid;
+  -webkit-transition: color .3s, border-color .3s;
+  -moz-transition: color .3s, border-color .3s;
+  -ms-transition: color .3s, border-color .3s;
+  -o-transition: color .3s, border-color .3s;
+  transition: color .3s, border-color .3s;
 }
 
 a:hover {
   text-decoration: none;
-  border: 0;
+  border-color: transparent;
 }
 
 .cover-container {
