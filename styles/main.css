@@ -121,25 +121,42 @@ a:hover {
 }
 
   .features-image img {
+    height: 150px;
+  }
+
+  .features-image .fa {
+    font-size: 150px;
+    color: rgb(85, 164, 242);
+  }
+
+  .bootstrap-icon {
+    display: inline-block;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 164, 242);
+    border-radius: 15%;
+    cursor: default;
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    line-height: 150px;
+  }
+
+@media (min-width: 768px) {
+  .features-image img {
     height: 200px;
   }
 
   .features-image .fa {
     font-size: 200px;
-    color: rgb(85, 164, 242);
   }
 
-.bootstrap-icon {
-  display: inline-block;
-  font-weight: 500;
-  color: rgb(255, 255, 255);
-  background-color: rgb(85, 164, 242);
-  border-radius: 15%;
-  cursor: default;
-  width: 200px;
-  height: 200px;
-  font-size: 150px;
-  line-height: 200px;
+  .bootstrap-icon {
+    width: 200px;
+    height: 200px;
+    font-size: 150px;
+    line-height: 200px;
+  }  
 }
 
 .donate {
