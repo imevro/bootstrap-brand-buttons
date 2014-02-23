@@ -1,5 +1,5 @@
 # [Social buttons for Bootstrap](http://theaqua.github.io/social-buttons.scss/)
-![enter image description here][1]
+![Social buttons][1]
 
 ### Usage
  * Install from Bower registry: `bower install social-buttons.scss`
@@ -23,5 +23,5 @@ MIT
 You can request new button as [issue](https://github.com/theaqua/social-buttons.scss/issues) or [pull request](https://github.com/theaqua/social-buttons.scss/pulls). Also I have Gumroad for  [donate](https://gumroad.com/l/social-buttons).
 
 
-  [1]: http://gm4.in/i/ftv.jpg
+  [1]: http://gm4.in/i/fu3.jpg
   [2]: https://github.com/theaqua/social-buttons.scss/blob/master/dist/social-buttons.min.css
