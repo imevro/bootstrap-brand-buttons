@@ -64,7 +64,6 @@ a:hover {
  * Affix and center
  */
 
-@media (min-width: 768px) {
   /* Pull out the header and footer */
   .mastfoot {
     position: absolute;
@@ -79,7 +78,6 @@ a:hover {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
-}
 
 @media (min-width: 992px) {
   .masthead,
