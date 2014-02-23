@@ -120,14 +120,14 @@ a:hover {
   text-align: center;
 }
 
-.features-image img {
-  height: 200px;
-}
+  .features-image img {
+    height: 200px;
+  }
 
-.features-image .fa {
-  font-size: 200px;
-  color: rgb(85, 164, 242);
-}
+  .features-image .fa {
+    font-size: 200px;
+    color: rgb(85, 164, 242);
+  }
 
 .bootstrap-icon {
   display: inline-block;
@@ -144,4 +144,13 @@ a:hover {
 
 .donate {
   padding: 5em 0;
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+  vertical-align: middle;
 }
