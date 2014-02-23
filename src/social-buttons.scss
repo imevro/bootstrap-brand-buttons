@@ -1,5 +1,5 @@
-@import "variables";
-@import "mixins";
+@import "_variables";
+@import "_mixins";
 
 @each $social in $socials {
   .btn-#{nth($social, 1)} {

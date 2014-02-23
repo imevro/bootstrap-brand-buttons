@@ -105,7 +105,7 @@ module.exports = (grunt) ->
 
       dist:
         options:
-          sourceComments: "normal"
+          sourceComments: "none"
 
         files:
           "dist/social-buttons.css": "<%= yeoman.app %>/social-buttons.scss"
@@ -143,7 +143,6 @@ module.exports = (grunt) ->
     # "copy:dist"
   ]
   grunt.registerTask "default", [
-    "newer"
     "build"
   ]
   return
