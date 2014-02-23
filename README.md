@@ -1,4 +1,4 @@
-# [Social buttons for Bootstrap](http://theaqua.github.io/social-buttons.scss/)
+# [Social buttons for Bootstrap](http://theaqua.github.io/social-buttons.scss/) [![Build Status](https://travis-ci.org/theaqua/social-buttons.scss.png?branch=master)](https://travis-ci.org/theaqua/social-buttons.scss)
 ![Social buttons][1]
 
 ### Usage
