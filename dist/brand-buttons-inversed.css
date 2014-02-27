@@ -4,7 +4,6 @@
   color: white; }
   .btn-amazon-inversed:hover {
     background-color: transparent;
-    border-color: #f29e37;
     color: #f29e37; }
 
 .btn-android-inversed {
@@ -13,7 +12,6 @@
   color: white; }
   .btn-android-inversed:hover {
     background-color: transparent;
-    border-color: #a4c639;
     color: #a4c639; }
 
 .btn-appnet-inversed {
@@ -22,8 +20,15 @@
   color: white; }
   .btn-appnet-inversed:hover {
     background-color: transparent;
-    border-color: #3178bd;
     color: #3178bd; }
+
+.btn-appstore-inversed {
+  background-color: #000000;
+  border-color: #000000;
+  color: white; }
+  .btn-appstore-inversed:hover {
+    background-color: transparent;
+    color: #000000; }
 
 .btn-bitcoin-inversed {
   background-color: #eb9737;
@@ -31,7 +36,6 @@
   color: white; }
   .btn-bitcoin-inversed:hover {
     background-color: transparent;
-    border-color: #eb9737;
     color: #eb9737; }
 
 .btn-bitbucket-inversed {
@@ -40,7 +44,6 @@
   color: white; }
   .btn-bitbucket-inversed:hover {
     background-color: transparent;
-    border-color: #205081;
     color: #205081; }
 
 .btn-blogger-inversed {
@@ -49,7 +52,6 @@
   color: white; }
   .btn-blogger-inversed:hover {
     background-color: transparent;
-    border-color: #ee5a22;
     color: #ee5a22; }
 
 .btn-cloudapp-inversed {
@@ -58,7 +60,6 @@
   color: white; }
   .btn-cloudapp-inversed:hover {
     background-color: transparent;
-    border-color: #312c2a;
     color: #312c2a; }
 
 .btn-creativecommons-inversed {
@@ -67,7 +68,6 @@
   color: white; }
   .btn-creativecommons-inversed:hover {
     background-color: transparent;
-    border-color: #000000;
     color: #000000; }
 
 .btn-delicious-inversed {
@@ -76,7 +76,6 @@
   color: white; }
   .btn-delicious-inversed:hover {
     background-color: transparent;
-    border-color: #3271cb;
     color: #3271cb; }
 
 .btn-digg-inversed {
@@ -85,7 +84,6 @@
   color: white; }
   .btn-digg-inversed:hover {
     background-color: transparent;
-    border-color: #164673;
     color: #164673; }
 
 .btn-disqus-inversed {
@@ -94,7 +92,6 @@
   color: white; }
   .btn-disqus-inversed:hover {
     background-color: transparent;
-    border-color: #2e9fff;
     color: #2e9fff; }
 
 .btn-dribbble-inversed {
@@ -103,7 +100,6 @@
   color: white; }
   .btn-dribbble-inversed:hover {
     background-color: transparent;
-    border-color: #ea4c89;
     color: #ea4c89; }
 
 .btn-dropbox-inversed {
@@ -112,7 +108,6 @@
   color: white; }
   .btn-dropbox-inversed:hover {
     background-color: transparent;
-    border-color: #007ee5;
     color: #007ee5; }
 
 .btn-eventbrite-inversed {
@@ -121,7 +116,6 @@
   color: white; }
   .btn-eventbrite-inversed:hover {
     background-color: transparent;
-    border-color: #ff5616;
     color: #ff5616; }
 
 .btn-eventful-inversed {
@@ -130,7 +124,6 @@
   color: white; }
   .btn-eventful-inversed:hover {
     background-color: transparent;
-    border-color: #376095;
     color: #376095; }
 
 .btn-evernote-inversed {
@@ -139,7 +132,6 @@
   color: white; }
   .btn-evernote-inversed:hover {
     background-color: transparent;
-    border-color: #6bb130;
     color: #6bb130; }
 
 .btn-facebook-inversed {
@@ -148,7 +140,6 @@
   color: white; }
   .btn-facebook-inversed:hover {
     background-color: transparent;
-    border-color: #4863ae;
     color: #4863ae; }
 
 .btn-flattr-inversed {
@@ -157,7 +148,6 @@
   color: white; }
   .btn-flattr-inversed:hover {
     background-color: transparent;
-    border-color: #8aba42;
     color: #8aba42; }
 
 .btn-flickr-inversed {
@@ -166,7 +156,6 @@
   color: white; }
   .btn-flickr-inversed:hover {
     background-color: transparent;
-    border-color: #ff0084;
     color: #ff0084; }
 
 .btn-foursquare-inversed {
@@ -175,7 +164,6 @@
   color: white; }
   .btn-foursquare-inversed:hover {
     background-color: transparent;
-    border-color: #0072b1;
     color: #0072b1; }
 
 .btn-github-inversed {
@@ -184,7 +172,6 @@
   color: white; }
   .btn-github-inversed:hover {
     background-color: transparent;
-    border-color: #171515;
     color: #171515; }
 
 .btn-gmail-inversed {
@@ -193,7 +180,6 @@
   color: white; }
   .btn-gmail-inversed:hover {
     background-color: transparent;
-    border-color: #db4038;
     color: #db4038; }
 
 .btn-google-inversed {
@@ -202,7 +188,6 @@
   color: white; }
   .btn-google-inversed:hover {
     background-color: transparent;
-    border-color: #4e6cf7;
     color: #4e6cf7; }
 
 .btn-googleplay-inversed {
@@ -211,7 +196,6 @@
   color: white; }
   .btn-googleplay-inversed:hover {
     background-color: transparent;
-    border-color: #b9c13e;
     color: #b9c13e; }
 
 .btn-googleplus-inversed {
@@ -220,7 +204,6 @@
   color: white; }
   .btn-googleplus-inversed:hover {
     background-color: transparent;
-    border-color: #dd4a38;
     color: #dd4a38; }
 
 .btn-gowalla-inversed {
@@ -229,7 +212,6 @@
   color: white; }
   .btn-gowalla-inversed:hover {
     background-color: transparent;
-    border-color: #ff720a;
     color: #ff720a; }
 
 .btn-grooveshark-inversed {
@@ -238,7 +220,6 @@
   color: white; }
   .btn-grooveshark-inversed:hover {
     background-color: transparent;
-    border-color: #e97a2f;
     color: #e97a2f; }
 
 .btn-html5-inversed {
@@ -247,7 +228,6 @@
   color: white; }
   .btn-html5-inversed:hover {
     background-color: transparent;
-    border-color: #ff3617;
     color: #ff3617; }
 
 .btn-ie-inversed {
@@ -256,7 +236,6 @@
   color: white; }
   .btn-ie-inversed:hover {
     background-color: transparent;
-    border-color: #00a1d9;
     color: #00a1d9; }
 
 .btn-instapaper-inversed {
@@ -265,7 +244,6 @@
   color: white; }
   .btn-instapaper-inversed:hover {
     background-color: transparent;
-    border-color: #222222;
     color: #222222; }
 
 .btn-instagram-inversed {
@@ -274,7 +252,6 @@
   color: white; }
   .btn-instagram-inversed:hover {
     background-color: transparent;
-    border-color: #3f729b;
     color: #3f729b; }
 
 .btn-intensedebate-inversed {
@@ -283,7 +260,6 @@
   color: white; }
   .btn-intensedebate-inversed:hover {
     background-color: transparent;
-    border-color: #0099e1;
     color: #0099e1; }
 
 .btn-itunes-inversed {
@@ -292,7 +268,6 @@
   color: white; }
   .btn-itunes-inversed:hover {
     background-color: transparent;
-    border-color: #525152;
     color: #525152; }
 
 .btn-klout-inversed {
@@ -301,7 +276,6 @@
   color: white; }
   .btn-klout-inversed:hover {
     background-color: transparent;
-    border-color: #e34a25;
     color: #e34a25; }
 
 .btn-lanyrd-inversed {
@@ -310,7 +284,6 @@
   color: white; }
   .btn-lanyrd-inversed:hover {
     background-color: transparent;
-    border-color: #2e6ac2;
     color: #2e6ac2; }
 
 .btn-lastfm-inversed {
@@ -319,7 +292,6 @@
   color: white; }
   .btn-lastfm-inversed:hover {
     background-color: transparent;
-    border-color: #dc1a23;
     color: #dc1a23; }
 
 .btn-linkedin-inversed {
@@ -328,7 +300,6 @@
   color: white; }
   .btn-linkedin-inversed:hover {
     background-color: transparent;
-    border-color: #0083a8;
     color: #0083a8; }
 
 .btn-logmein-inversed {
@@ -337,7 +308,6 @@
   color: white; }
   .btn-logmein-inversed:hover {
     background-color: transparent;
-    border-color: #000000;
     color: #000000; }
 
 .btn-macstore-inversed {
@@ -346,7 +316,6 @@
   color: white; }
   .btn-macstore-inversed:hover {
     background-color: transparent;
-    border-color: #007dcb;
     color: #007dcb; }
 
 .btn-meetup-inversed {
@@ -355,7 +324,6 @@
   color: white; }
   .btn-meetup-inversed:hover {
     background-color: transparent;
-    border-color: #ff0026;
     color: #ff0026; }
 
 .btn-myspace-inversed {
@@ -364,7 +332,6 @@
   color: white; }
   .btn-myspace-inversed:hover {
     background-color: transparent;
-    border-color: #000000;
     color: #000000; }
 
 .btn-ninetyninedesigns-inversed {
@@ -373,7 +340,6 @@
   color: white; }
   .btn-ninetyninedesigns-inversed:hover {
     background-color: transparent;
-    border-color: #072243;
     color: #072243; }
 
 .btn-opentable-inversed {
@@ -382,7 +348,6 @@
   color: white; }
   .btn-opentable-inversed:hover {
     background-color: transparent;
-    border-color: #990000;
     color: #990000; }
 
 .btn-paypal-inversed {
@@ -391,7 +356,6 @@
   color: white; }
   .btn-paypal-inversed:hover {
     background-color: transparent;
-    border-color: #32689a;
     color: #32689a; }
 
 .btn-pinboard-inversed {
@@ -400,7 +364,6 @@
   color: white; }
   .btn-pinboard-inversed:hover {
     background-color: transparent;
-    border-color: #0000ff;
     color: #0000ff; }
 
 .btn-pinterest-inversed {
@@ -409,7 +372,6 @@
   color: white; }
   .btn-pinterest-inversed:hover {
     background-color: transparent;
-    border-color: #c91618;
     color: #c91618; }
 
 .btn-pocket-inversed {
@@ -418,7 +380,6 @@
   color: white; }
   .btn-pocket-inversed:hover {
     background-color: transparent;
-    border-color: #de5a5f;
     color: #de5a5f; }
 
 .btn-plurk-inversed {
@@ -427,7 +388,6 @@
   color: white; }
   .btn-plurk-inversed:hover {
     background-color: transparent;
-    border-color: #cf682f;
     color: #cf682f; }
 
 .btn-podcast-inversed {
@@ -436,7 +396,6 @@
   color: white; }
   .btn-podcast-inversed:hover {
     background-color: transparent;
-    border-color: #9365ce;
     color: #9365ce; }
 
 .btn-quora-inversed {
@@ -445,7 +404,6 @@
   color: white; }
   .btn-quora-inversed:hover {
     background-color: transparent;
-    border-color: #a82400;
     color: #a82400; }
 
 .btn-reddit-inversed {
@@ -454,7 +412,6 @@
   color: white; }
   .btn-reddit-inversed:hover {
     background-color: transparent;
-    border-color: #ff5700;
     color: #ff5700; }
 
 .btn-rss-inversed {
@@ -463,7 +420,6 @@
   color: white; }
   .btn-rss-inversed:hover {
     background-color: transparent;
-    border-color: #ff7f25;
     color: #ff7f25; }
 
 .btn-scribd-inversed {
@@ -472,7 +428,6 @@
   color: white; }
   .btn-scribd-inversed:hover {
     background-color: transparent;
-    border-color: #231c1a;
     color: #231c1a; }
 
 .btn-skype-inversed {
@@ -481,7 +436,6 @@
   color: white; }
   .btn-skype-inversed:hover {
     background-color: transparent;
-    border-color: #00a2ed;
     color: #00a2ed; }
 
 .btn-smashing-inversed {
@@ -490,7 +444,6 @@
   color: white; }
   .btn-smashing-inversed:hover {
     background-color: transparent;
-    border-color: #ff4f27;
     color: #ff4f27; }
 
 .btn-songkick-inversed {
@@ -499,7 +452,6 @@
   color: white; }
   .btn-songkick-inversed:hover {
     background-color: transparent;
-    border-color: #ff0050;
     color: #ff0050; }
 
 .btn-soundcloud-inversed {
@@ -508,7 +460,6 @@
   color: white; }
   .btn-soundcloud-inversed:hover {
     background-color: transparent;
-    border-color: #ff4500;
     color: #ff4500; }
 
 .btn-spotify-inversed {
@@ -517,7 +468,6 @@
   color: white; }
   .btn-spotify-inversed:hover {
     background-color: transparent;
-    border-color: #60af00;
     color: #60af00; }
 
 .btn-stackoverflow-inversed {
@@ -526,7 +476,6 @@
   color: white; }
   .btn-stackoverflow-inversed:hover {
     background-color: transparent;
-    border-color: #f18436;
     color: #f18436; }
 
 .btn-statusnet-inversed {
@@ -535,7 +484,6 @@
   color: white; }
   .btn-statusnet-inversed:hover {
     background-color: transparent;
-    border-color: #829d25;
     color: #829d25; }
 
 .btn-steam-inversed {
@@ -544,7 +492,6 @@
   color: white; }
   .btn-steam-inversed:hover {
     background-color: transparent;
-    border-color: #000000;
     color: #000000; }
 
 .btn-stripe-inversed {
@@ -553,7 +500,6 @@
   color: white; }
   .btn-stripe-inversed:hover {
     background-color: transparent;
-    border-color: #2f7ed6;
     color: #2f7ed6; }
 
 .btn-stumbleupon-inversed {
@@ -562,7 +508,6 @@
   color: white; }
   .btn-stumbleupon-inversed:hover {
     background-color: transparent;
-    border-color: #eb4924;
     color: #eb4924; }
 
 .btn-tumblr-inversed {
@@ -571,7 +516,6 @@
   color: white; }
   .btn-tumblr-inversed:hover {
     background-color: transparent;
-    border-color: #374a61;
     color: #374a61; }
 
 .btn-twitter-inversed {
@@ -580,7 +524,6 @@
   color: white; }
   .btn-twitter-inversed:hover {
     background-color: transparent;
-    border-color: #46c0fb;
     color: #46c0fb; }
 
 .btn-viadeo-inversed {
@@ -589,7 +532,6 @@
   color: white; }
   .btn-viadeo-inversed:hover {
     background-color: transparent;
-    border-color: #e7732e;
     color: #e7732e; }
 
 .btn-vimeo-inversed {
@@ -598,7 +540,6 @@
   color: white; }
   .btn-vimeo-inversed:hover {
     background-color: transparent;
-    border-color: #00a2cd;
     color: #00a2cd; }
 
 .btn-vk-inversed {
@@ -607,7 +548,6 @@
   color: white; }
   .btn-vk-inversed:hover {
     background-color: transparent;
-    border-color: #45688e;
     color: #45688e; }
 
 .btn-weibo-inversed {
@@ -616,7 +556,6 @@
   color: white; }
   .btn-weibo-inversed:hover {
     background-color: transparent;
-    border-color: #d7584d;
     color: #d7584d; }
 
 .btn-wikipedia-inversed {
@@ -625,7 +564,6 @@
   color: white; }
   .btn-wikipedia-inversed:hover {
     background-color: transparent;
-    border-color: #111111;
     color: #111111; }
 
 .btn-windows-inversed {
@@ -634,7 +572,6 @@
   color: white; }
   .btn-windows-inversed:hover {
     background-color: transparent;
-    border-color: #48bbef;
     color: #48bbef; }
 
 .btn-wordpress-inversed {
@@ -643,7 +580,6 @@
   color: white; }
   .btn-wordpress-inversed:hover {
     background-color: transparent;
-    border-color: #464646;
     color: #464646; }
 
 .btn-xing-inversed {
@@ -652,7 +588,6 @@
   color: white; }
   .btn-xing-inversed:hover {
     background-color: transparent;
-    border-color: #0a5d5e;
     color: #0a5d5e; }
 
 .btn-yahoo-inversed {
@@ -661,7 +596,6 @@
   color: white; }
   .btn-yahoo-inversed:hover {
     background-color: transparent;
-    border-color: #a200c2;
     color: #a200c2; }
 
 .btn-ycombinator-inversed {
@@ -670,7 +604,6 @@
   color: white; }
   .btn-ycombinator-inversed:hover {
     background-color: transparent;
-    border-color: #ff6600;
     color: #ff6600; }
 
 .btn-yelp-inversed {
@@ -679,7 +612,6 @@
   color: white; }
   .btn-yelp-inversed:hover {
     background-color: transparent;
-    border-color: #e60010;
     color: #e60010; }
 
 .btn-youtube-inversed {
@@ -688,5 +620,4 @@
   color: white; }
   .btn-youtube-inversed:hover {
     background-color: transparent;
-    border-color: #ff0000;
     color: #ff0000; }

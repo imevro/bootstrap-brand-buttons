@@ -4,7 +4,6 @@
   color: #f29e37; }
   .btn-amazon:hover {
     background-color: #f29e37;
-    border-color: #f29e37;
     color: white; }
 
 .btn-android {
@@ -13,7 +12,6 @@
   color: #a4c639; }
   .btn-android:hover {
     background-color: #a4c639;
-    border-color: #a4c639;
     color: white; }
 
 .btn-appnet {
@@ -22,7 +20,14 @@
   color: #3178bd; }
   .btn-appnet:hover {
     background-color: #3178bd;
-    border-color: #3178bd;
+    color: white; }
+
+.btn-appstore {
+  background-color: transparent;
+  border-color: #000000;
+  color: #000000; }
+  .btn-appstore:hover {
+    background-color: #000000;
     color: white; }
 
 .btn-bitcoin {
@@ -31,7 +36,6 @@
   color: #eb9737; }
   .btn-bitcoin:hover {
     background-color: #eb9737;
-    border-color: #eb9737;
     color: white; }
 
 .btn-bitbucket {
@@ -40,7 +44,6 @@
   color: #205081; }
   .btn-bitbucket:hover {
     background-color: #205081;
-    border-color: #205081;
     color: white; }
 
 .btn-blogger {
@@ -49,7 +52,6 @@
   color: #ee5a22; }
   .btn-blogger:hover {
     background-color: #ee5a22;
-    border-color: #ee5a22;
     color: white; }
 
 .btn-cloudapp {
@@ -58,7 +60,6 @@
   color: #312c2a; }
   .btn-cloudapp:hover {
     background-color: #312c2a;
-    border-color: #312c2a;
     color: white; }
 
 .btn-creativecommons {
@@ -67,7 +68,6 @@
   color: #000000; }
   .btn-creativecommons:hover {
     background-color: #000000;
-    border-color: #000000;
     color: white; }
 
 .btn-delicious {
@@ -76,7 +76,6 @@
   color: #3271cb; }
   .btn-delicious:hover {
     background-color: #3271cb;
-    border-color: #3271cb;
     color: white; }
 
 .btn-digg {
@@ -85,7 +84,6 @@
   color: #164673; }
   .btn-digg:hover {
     background-color: #164673;
-    border-color: #164673;
     color: white; }
 
 .btn-disqus {
@@ -94,7 +92,6 @@
   color: #2e9fff; }
   .btn-disqus:hover {
     background-color: #2e9fff;
-    border-color: #2e9fff;
     color: white; }
 
 .btn-dribbble {
@@ -103,7 +100,6 @@
   color: #ea4c89; }
   .btn-dribbble:hover {
     background-color: #ea4c89;
-    border-color: #ea4c89;
     color: white; }
 
 .btn-dropbox {
@@ -112,7 +108,6 @@
   color: #007ee5; }
   .btn-dropbox:hover {
     background-color: #007ee5;
-    border-color: #007ee5;
     color: white; }
 
 .btn-eventbrite {
@@ -121,7 +116,6 @@
   color: #ff5616; }
   .btn-eventbrite:hover {
     background-color: #ff5616;
-    border-color: #ff5616;
     color: white; }
 
 .btn-eventful {
@@ -130,7 +124,6 @@
   color: #376095; }
   .btn-eventful:hover {
     background-color: #376095;
-    border-color: #376095;
     color: white; }
 
 .btn-evernote {
@@ -139,7 +132,6 @@
   color: #6bb130; }
   .btn-evernote:hover {
     background-color: #6bb130;
-    border-color: #6bb130;
     color: white; }
 
 .btn-facebook {
@@ -148,7 +140,6 @@
   color: #4863ae; }
   .btn-facebook:hover {
     background-color: #4863ae;
-    border-color: #4863ae;
     color: white; }
 
 .btn-flattr {
@@ -157,7 +148,6 @@
   color: #8aba42; }
   .btn-flattr:hover {
     background-color: #8aba42;
-    border-color: #8aba42;
     color: white; }
 
 .btn-flickr {
@@ -166,7 +156,6 @@
   color: #ff0084; }
   .btn-flickr:hover {
     background-color: #ff0084;
-    border-color: #ff0084;
     color: white; }
 
 .btn-foursquare {
@@ -175,7 +164,6 @@
   color: #0072b1; }
   .btn-foursquare:hover {
     background-color: #0072b1;
-    border-color: #0072b1;
     color: white; }
 
 .btn-github {
@@ -184,7 +172,6 @@
   color: #171515; }
   .btn-github:hover {
     background-color: #171515;
-    border-color: #171515;
     color: white; }
 
 .btn-gmail {
@@ -193,7 +180,6 @@
   color: #db4038; }
   .btn-gmail:hover {
     background-color: #db4038;
-    border-color: #db4038;
     color: white; }
 
 .btn-google {
@@ -202,7 +188,6 @@
   color: #4e6cf7; }
   .btn-google:hover {
     background-color: #4e6cf7;
-    border-color: #4e6cf7;
     color: white; }
 
 .btn-googleplay {
@@ -211,7 +196,6 @@
   color: #b9c13e; }
   .btn-googleplay:hover {
     background-color: #b9c13e;
-    border-color: #b9c13e;
     color: white; }
 
 .btn-googleplus {
@@ -220,7 +204,6 @@
   color: #dd4a38; }
   .btn-googleplus:hover {
     background-color: #dd4a38;
-    border-color: #dd4a38;
     color: white; }
 
 .btn-gowalla {
@@ -229,7 +212,6 @@
   color: #ff720a; }
   .btn-gowalla:hover {
     background-color: #ff720a;
-    border-color: #ff720a;
     color: white; }
 
 .btn-grooveshark {
@@ -238,7 +220,6 @@
   color: #e97a2f; }
   .btn-grooveshark:hover {
     background-color: #e97a2f;
-    border-color: #e97a2f;
     color: white; }
 
 .btn-html5 {
@@ -247,7 +228,6 @@
   color: #ff3617; }
   .btn-html5:hover {
     background-color: #ff3617;
-    border-color: #ff3617;
     color: white; }
 
 .btn-ie {
@@ -256,7 +236,6 @@
   color: #00a1d9; }
   .btn-ie:hover {
     background-color: #00a1d9;
-    border-color: #00a1d9;
     color: white; }
 
 .btn-instapaper {
@@ -265,7 +244,6 @@
   color: #222222; }
   .btn-instapaper:hover {
     background-color: #222222;
-    border-color: #222222;
     color: white; }
 
 .btn-instagram {
@@ -274,7 +252,6 @@
   color: #3f729b; }
   .btn-instagram:hover {
     background-color: #3f729b;
-    border-color: #3f729b;
     color: white; }
 
 .btn-intensedebate {
@@ -283,7 +260,6 @@
   color: #0099e1; }
   .btn-intensedebate:hover {
     background-color: #0099e1;
-    border-color: #0099e1;
     color: white; }
 
 .btn-itunes {
@@ -292,7 +268,6 @@
   color: #525152; }
   .btn-itunes:hover {
     background-color: #525152;
-    border-color: #525152;
     color: white; }
 
 .btn-klout {
@@ -301,7 +276,6 @@
   color: #e34a25; }
   .btn-klout:hover {
     background-color: #e34a25;
-    border-color: #e34a25;
     color: white; }
 
 .btn-lanyrd {
@@ -310,7 +284,6 @@
   color: #2e6ac2; }
   .btn-lanyrd:hover {
     background-color: #2e6ac2;
-    border-color: #2e6ac2;
     color: white; }
 
 .btn-lastfm {
@@ -319,7 +292,6 @@
   color: #dc1a23; }
   .btn-lastfm:hover {
     background-color: #dc1a23;
-    border-color: #dc1a23;
     color: white; }
 
 .btn-linkedin {
@@ -328,7 +300,6 @@
   color: #0083a8; }
   .btn-linkedin:hover {
     background-color: #0083a8;
-    border-color: #0083a8;
     color: white; }
 
 .btn-logmein {
@@ -337,7 +308,6 @@
   color: #000000; }
   .btn-logmein:hover {
     background-color: #000000;
-    border-color: #000000;
     color: white; }
 
 .btn-macstore {
@@ -346,7 +316,6 @@
   color: #007dcb; }
   .btn-macstore:hover {
     background-color: #007dcb;
-    border-color: #007dcb;
     color: white; }
 
 .btn-meetup {
@@ -355,7 +324,6 @@
   color: #ff0026; }
   .btn-meetup:hover {
     background-color: #ff0026;
-    border-color: #ff0026;
     color: white; }
 
 .btn-myspace {
@@ -364,7 +332,6 @@
   color: #000000; }
   .btn-myspace:hover {
     background-color: #000000;
-    border-color: #000000;
     color: white; }
 
 .btn-ninetyninedesigns {
@@ -373,7 +340,6 @@
   color: #072243; }
   .btn-ninetyninedesigns:hover {
     background-color: #072243;
-    border-color: #072243;
     color: white; }
 
 .btn-opentable {
@@ -382,7 +348,6 @@
   color: #990000; }
   .btn-opentable:hover {
     background-color: #990000;
-    border-color: #990000;
     color: white; }
 
 .btn-paypal {
@@ -391,7 +356,6 @@
   color: #32689a; }
   .btn-paypal:hover {
     background-color: #32689a;
-    border-color: #32689a;
     color: white; }
 
 .btn-pinboard {
@@ -400,7 +364,6 @@
   color: #0000ff; }
   .btn-pinboard:hover {
     background-color: #0000ff;
-    border-color: #0000ff;
     color: white; }
 
 .btn-pinterest {
@@ -409,7 +372,6 @@
   color: #c91618; }
   .btn-pinterest:hover {
     background-color: #c91618;
-    border-color: #c91618;
     color: white; }
 
 .btn-pocket {
@@ -418,7 +380,6 @@
   color: #de5a5f; }
   .btn-pocket:hover {
     background-color: #de5a5f;
-    border-color: #de5a5f;
     color: white; }
 
 .btn-plurk {
@@ -427,7 +388,6 @@
   color: #cf682f; }
   .btn-plurk:hover {
     background-color: #cf682f;
-    border-color: #cf682f;
     color: white; }
 
 .btn-podcast {
@@ -436,7 +396,6 @@
   color: #9365ce; }
   .btn-podcast:hover {
     background-color: #9365ce;
-    border-color: #9365ce;
     color: white; }
 
 .btn-quora {
@@ -445,7 +404,6 @@
   color: #a82400; }
   .btn-quora:hover {
     background-color: #a82400;
-    border-color: #a82400;
     color: white; }
 
 .btn-reddit {
@@ -454,7 +412,6 @@
   color: #ff5700; }
   .btn-reddit:hover {
     background-color: #ff5700;
-    border-color: #ff5700;
     color: white; }
 
 .btn-rss {
@@ -463,7 +420,6 @@
   color: #ff7f25; }
   .btn-rss:hover {
     background-color: #ff7f25;
-    border-color: #ff7f25;
     color: white; }
 
 .btn-scribd {
@@ -472,7 +428,6 @@
   color: #231c1a; }
   .btn-scribd:hover {
     background-color: #231c1a;
-    border-color: #231c1a;
     color: white; }
 
 .btn-skype {
@@ -481,7 +436,6 @@
   color: #00a2ed; }
   .btn-skype:hover {
     background-color: #00a2ed;
-    border-color: #00a2ed;
     color: white; }
 
 .btn-smashing {
@@ -490,7 +444,6 @@
   color: #ff4f27; }
   .btn-smashing:hover {
     background-color: #ff4f27;
-    border-color: #ff4f27;
     color: white; }
 
 .btn-songkick {
@@ -499,7 +452,6 @@
   color: #ff0050; }
   .btn-songkick:hover {
     background-color: #ff0050;
-    border-color: #ff0050;
     color: white; }
 
 .btn-soundcloud {
@@ -508,7 +460,6 @@
   color: #ff4500; }
   .btn-soundcloud:hover {
     background-color: #ff4500;
-    border-color: #ff4500;
     color: white; }
 
 .btn-spotify {
@@ -517,7 +468,6 @@
   color: #60af00; }
   .btn-spotify:hover {
     background-color: #60af00;
-    border-color: #60af00;
     color: white; }
 
 .btn-stackoverflow {
@@ -526,7 +476,6 @@
   color: #f18436; }
   .btn-stackoverflow:hover {
     background-color: #f18436;
-    border-color: #f18436;
     color: white; }
 
 .btn-statusnet {
@@ -535,7 +484,6 @@
   color: #829d25; }
   .btn-statusnet:hover {
     background-color: #829d25;
-    border-color: #829d25;
     color: white; }
 
 .btn-steam {
@@ -544,7 +492,6 @@
   color: #000000; }
   .btn-steam:hover {
     background-color: #000000;
-    border-color: #000000;
     color: white; }
 
 .btn-stripe {
@@ -553,7 +500,6 @@
   color: #2f7ed6; }
   .btn-stripe:hover {
     background-color: #2f7ed6;
-    border-color: #2f7ed6;
     color: white; }
 
 .btn-stumbleupon {
@@ -562,7 +508,6 @@
   color: #eb4924; }
   .btn-stumbleupon:hover {
     background-color: #eb4924;
-    border-color: #eb4924;
     color: white; }
 
 .btn-tumblr {
@@ -571,7 +516,6 @@
   color: #374a61; }
   .btn-tumblr:hover {
     background-color: #374a61;
-    border-color: #374a61;
     color: white; }
 
 .btn-twitter {
@@ -580,7 +524,6 @@
   color: #46c0fb; }
   .btn-twitter:hover {
     background-color: #46c0fb;
-    border-color: #46c0fb;
     color: white; }
 
 .btn-viadeo {
@@ -589,7 +532,6 @@
   color: #e7732e; }
   .btn-viadeo:hover {
     background-color: #e7732e;
-    border-color: #e7732e;
     color: white; }
 
 .btn-vimeo {
@@ -598,7 +540,6 @@
   color: #00a2cd; }
   .btn-vimeo:hover {
     background-color: #00a2cd;
-    border-color: #00a2cd;
     color: white; }
 
 .btn-vk {
@@ -607,7 +548,6 @@
   color: #45688e; }
   .btn-vk:hover {
     background-color: #45688e;
-    border-color: #45688e;
     color: white; }
 
 .btn-weibo {
@@ -616,7 +556,6 @@
   color: #d7584d; }
   .btn-weibo:hover {
     background-color: #d7584d;
-    border-color: #d7584d;
     color: white; }
 
 .btn-wikipedia {
@@ -625,7 +564,6 @@
   color: #111111; }
   .btn-wikipedia:hover {
     background-color: #111111;
-    border-color: #111111;
     color: white; }
 
 .btn-windows {
@@ -634,7 +572,6 @@
   color: #48bbef; }
   .btn-windows:hover {
     background-color: #48bbef;
-    border-color: #48bbef;
     color: white; }
 
 .btn-wordpress {
@@ -643,7 +580,6 @@
   color: #464646; }
   .btn-wordpress:hover {
     background-color: #464646;
-    border-color: #464646;
     color: white; }
 
 .btn-xing {
@@ -652,7 +588,6 @@
   color: #0a5d5e; }
   .btn-xing:hover {
     background-color: #0a5d5e;
-    border-color: #0a5d5e;
     color: white; }
 
 .btn-yahoo {
@@ -661,7 +596,6 @@
   color: #a200c2; }
   .btn-yahoo:hover {
     background-color: #a200c2;
-    border-color: #a200c2;
     color: white; }
 
 .btn-ycombinator {
@@ -670,7 +604,6 @@
   color: #ff6600; }
   .btn-ycombinator:hover {
     background-color: #ff6600;
-    border-color: #ff6600;
     color: white; }
 
 .btn-yelp {
@@ -679,7 +612,6 @@
   color: #e60010; }
   .btn-yelp:hover {
     background-color: #e60010;
-    border-color: #e60010;
     color: white; }
 
 .btn-youtube {
@@ -688,5 +620,4 @@
   color: #ff0000; }
   .btn-youtube:hover {
     background-color: #ff0000;
-    border-color: #ff0000;
     color: white; }

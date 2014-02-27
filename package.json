@@ -1,6 +1,6 @@
 {
-  "name": "social-buttons",
-  "version": "0.0.1",
+  "name": "brandbuttons",
+  "version": "0.2",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",

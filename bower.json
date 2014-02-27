@@ -1,14 +1,15 @@
 {
-  "name": "social-buttons.scss",
-  "version": "0.0.1",
-  "homepage": "https://github.com/theaqua/social-buttons.scss",
+  "name": "BrandButtons",
+  "version": "0.2",
+  "homepage": "https://github.com/theaqua/BrandButtons",
   "authors": [
     "Eugene Rodionov <hello@theaqua.im>"
   ],
-  "description": "Social buttons for Bootstrap 3",
-  "main": "dist/social-buttons.min.css",
+  "description": "Brand buttons for Bootstrap 3",
+  "main": "dist/brand-buttons.min.css",
   "keywords": [
     "social",
+    "brands",
     "bootstrap",
     "buttons"
   ],
