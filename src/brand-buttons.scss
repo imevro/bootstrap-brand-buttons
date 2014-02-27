@@ -1,8 +1,8 @@
 @import "_variables";
 @import "_mixins";
 
-@each $social in $socials {
-  .btn-#{nth($social, 1)} {
-    @include btn( #{nth($social, 2)} );
+@each $item in $brands {
+  .btn-#{nth($item, 1)} {
+    @include btn( #{nth($item, 2)} );
   }
 }
