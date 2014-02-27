@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="BBDocsApp">
   <head>
     <meta charset="UTF-8">
-    <title>Social buttons for Bootstrap</title>
+    <title>Brand buttons for Bootstrap</title>
     <link rel="stylesheet" href="https://rawgithub.com/twbs/bootstrap/master/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://rawgithub.com/FortAwesome/Font-Awesome/master/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://rawgithub.com/theaqua/social-buttons.scss/master/dist/social-buttons.min.css">
+    <link rel="stylesheet" href="https://rawgithub.com/theaqua/social-buttons.scss/0.2/dist/brand-buttons.min.css">
+    <link rel="stylesheet" href="https://rawgithub.com/theaqua/social-buttons.scss/0.2/dist/brand-buttons-inversed.min.css">
     <link href="styles/main.css" rel="stylesheet">
   </head>
   <body>
@@ -14,7 +15,7 @@
         <div class="cover-container">
           <div class="inner cover">
             <h1 class="cover-heading">
-              Social buttons for Bootstrap
+              Brand buttons for Bootstrap
             </h1>
             <div class="col-sm-6 col-md-3 btn-demo">
               <button class="btn btn-block btn-lg btn-bitcoin">
@@ -37,7 +38,7 @@
               </button>
             </div>
             <p class="lead">
-              <a href="#features" class="call-to-action">…and 73 others <i class="fa fa-angle-right"></i></a>
+              <a href="#features" class="call-to-action">…and 82 others <i class="fa fa-angle-right"></i></a>
             </p>
           </div>
           <div class="mastfoot">
@@ -53,20 +54,20 @@
       </div>
     </div>
 
-    <section class="features" id="features">
-      <div class="container">
+    <div class="container">
+      <section class="features" id="features">
         <div class="row">
           <div class="col-xs-6 col-sm-4 feature">
             <div class="features-image">
               <img src="images/sass.svg" alt="">
             </div>
-            <h3><span class="hidden-xs">Written with</span> SASS</h3>
+            <h3><span class="hidden-xs">Written with</span> Sass</h3>
           </div>
           <div class="col-xs-6 col-sm-4 feature">
             <div class="features-image">
               <i class="fa fa-heart-o"></i>
             </div>
-            <h3>77 items</h3>
+            <h3>86 items</h3>
           </div>
           <div class="col-xs-12 col-sm-4 feature">
             <div class="features-image">
@@ -75,11 +76,180 @@
             <h3>For Bootstrap</h3>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="demo">
-      <div class="container">
+      <section class="new">
+        <div class="page-header">
+          <h3>What's new <small>in 0.2</small></h3>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-xs-6 col-sm-3">
+            <p>
+              <i class="fa fa-terminal fa-5x"></i>
+            </p>
+            <h3>New name</h3>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <p>
+              <i class="fa fa-5x">+</i>
+            </p>
+            <h3>9 new icons</h3>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <p>
+              <i class="fa fa-star-half-o fa-5x"></i>
+            </p>
+            <h3>Inversed version</h3>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <p>
+              <i class="fa fa-code fa-5x"></i>
+            </p>
+            <h3>Updated documentation</h3>
+          </div>
+        </div>
+      </section>
+
+      <section ng-controller="ListCtrl">
+        <section ng-repeat="brand in brands">
+          <div class="page-header">
+            <h3>{{brand.name}}</h3>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6 col-md-3 btn-demo" ng-repeat="btn in brand.list">
+              <button class="btn btn-block btn-lg btn-{{btn}}">
+                {{btn}}
+              </button>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="uses">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="page-header">
+              <h3>Different sizes</h3>
+            </div>
+            <div class="table-responsive table-sizes">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="col-xs-2">Size</th>
+                    <th>Example</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>.btn-xs</td>
+                    <td>
+                      <button class="btn btn-xs btn-bitcoin">
+                        <i class="fa fa-bitcoin"></i> Bitcoin
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>.btn-sm</td>
+                    <td>
+                      <button class="btn btn-sm btn-bitcoin">
+                        <i class="fa fa-bitcoin"></i> Bitcoin
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>default</td>
+                    <td>
+                      <button class="btn btn-bitcoin">
+                        <i class="fa fa-bitcoin"></i> Bitcoin
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>.btn-lg</td>
+                    <td>
+                      <button class="btn btn-lg btn-bitcoin">
+                        <i class="fa fa-bitcoin"></i> Bitcoin
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>.btn-block</td>
+                    <td>
+                      <button class="btn btn-block btn-lg btn-bitcoin">
+                        <i class="fa fa-bitcoin"></i> Bitcoin
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="page-header">
+              <h3>Different uses</h3>
+            </div>
+            <div class="table-responsive table-sizes">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="col-xs-2">Use</th>
+                    <th>Example</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Only icon</td>
+                    <td>
+                      <button class="btn btn-xs btn-facebook">
+                        <i class="fa fa-facebook"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Plain</td>
+                    <td>
+                      <button class="btn btn-sm btn-facebook">
+                        Facebook
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>With icon</td>
+                    <td>
+                      <button class="btn btn-facebook">
+                        <i class="fa fa-facebook"></i> Facebook
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Any content</td>
+                    <td>
+                      <button class="btn btn-lg btn-facebook">
+                        <i class="fa fa-facebook"></i> Connect with Facebook <i class="fa fa-angle-right"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Inversed</td>
+                    <td>
+                      <button class="btn btn-lg btn-facebook-inversed">
+                        <i class="fa fa-facebook"></i> Facebook <i class="fa fa-angle-right"></i>
+                      </button>
+                      <span>
+                        .btn-<strong>brand</strong>-inversed
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="font-awesome">
         <div class="page-header">
           <h3>With Font Awesome</h3>
         </div>
@@ -200,145 +370,24 @@
             </button>
           </div>
         </div>
+      </section>
 
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="page-header">
-              <h3>Different sizes</h3>
-            </div>
-            <div class="table-responsive table-sizes">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th class="col-xs-2">Size</th>
-                    <th>Example</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>.btn-xs</td>
-                    <td>
-                      <button class="btn btn-xs btn-bitcoin">
-                        <i class="fa fa-bitcoin"></i> Bitcoin
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>.btn-sm</td>
-                    <td>
-                      <button class="btn btn-sm btn-bitcoin">
-                        <i class="fa fa-bitcoin"></i> Bitcoin
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>default</td>
-                    <td>
-                      <button class="btn btn-bitcoin">
-                        <i class="fa fa-bitcoin"></i> Bitcoin
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>.btn-lg</td>
-                    <td>
-                      <button class="btn btn-lg btn-bitcoin">
-                        <i class="fa fa-bitcoin"></i> Bitcoin
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>.btn-block</td>
-                    <td>
-                      <button class="btn btn-block btn-lg btn-bitcoin">
-                        <i class="fa fa-bitcoin"></i> Bitcoin
-                      </button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="page-header">
-              <h3>Different uses</h3>
-            </div>
-            <div class="table-responsive table-sizes">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th class="col-xs-2">Use</th>
-                    <th>Example</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Only icon</td>
-                    <td>
-                      <button class="btn btn-xs btn-facebook">
-                        <i class="fa fa-facebook"></i>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Plain</td>
-                    <td>
-                      <button class="btn btn-sm btn-facebook">
-                        Facebook
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>With icon</td>
-                    <td>
-                      <button class="btn btn-facebook">
-                        <i class="fa fa-facebook"></i> Facebook
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Any content</td>
-                    <td>
-                      <button class="btn btn-lg btn-facebook">
-                        <i class="fa fa-facebook"></i> Connect with Facebook <i class="fa fa-angle-right"></i>
-                      </button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        <div class="page-header">
-          <h3>All</h3>
-        </div>
-        <div class="row" id="test"></div>
-      </div>
-    </section>
-
-    <section class="install">
-      <div class="container">
+      <section class="install">
         <div class="row">
           <div class="col-md-6">
             <div class="page-header">
               <h3>Install and usage</h3>
             </div>
             <ul>
-              <li>Install from Bower: <code>bower install social-buttons.scss</code></li>
+              <li>Install from Bower: <code>bower install BrandButtons</code></li>
               <li>
-                Include <a href="https://github.com/theaqua/social-buttons.scss/blob/master/dist/social-buttons.min.css">social-buttons.min.css</a> to your file: <code>&lt;link rel="stylesheet" src="dist/social-buttons.min.css"&gt;</code>
+                Include <a href="https://github.com/theaqua/BrandButtons/blob/master/dist/brand-buttons.min.css">brand-buttons.min.css</a> to your file: <code>&lt;link rel="stylesheet" src="dist/brand-buttons.min.css"&gt;</code>
               </li>
               <li>
                 Use as Bootstrap button: <code>&lt;button class="btn btn-facebook"&gt;Facebook&lt;/button&gt;</code> or <code>&lt;a href="" class="btn btn-facebook">Facebook&lt;/a></code>
               </li>
               <li>
-                You can:
-                <ul>
-                  <li>Use different sizes: <code>btn-xs</code>, <code>btn-sm</code>, <code>btn-lg</code> or <code>btn-block</code></li>
-                  <li>Use with Font Awesome</li>
-                  <li>Or anything else you prefer to do with Bootstrap buttons!</li>
-                </ul>
+                For inversed version you need include <a href="https://github.com/theaqua/BrandButtons/blob/master/dist/brand-buttons-inversed.min.css">brand-buttons-inversed.min.css</a> and use as <code>.btn-brand-inversed</code>
               </li>
             </ul>
           </div>
@@ -348,13 +397,13 @@
             </div>
             <ul>
               <li>
-                Clone repository <code>git clone https://github.com/theaqua/social-buttons.scss.git</code>
+                Clone repository <code>git clone https://github.com/theaqua/BrandButtons.git</code>
               </li>
               <li>
                 Install Grunt.js and CoffeeScript (globally): <code>npm install -g grunt-cli coffee-script</code>
               </li>
               <li>
-                Go to project <code>cd social-buttons.scss</code>, install dev dependencies: <code>npm install</code>
+                Go to project <code>cd BrandButtons</code>, install dev dependencies: <code>npm install</code>
               </li>
               <li>
                 Run <code>grunt serve</code> or <code>grunt build</code>
@@ -362,24 +411,23 @@
             </ul>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="donate">
-      <div class="container">
+      <section class="footer">
         <div class="row">
           <div class="col-xs-12">
             <hr>
-            <h3>Social Buttons by <a href="//theaqua.im">Eugene Rodionov</a>. Get on <a href="//github.com/theaqua/social-buttons.scss"><i class="fa fa-github"></i> GitHub</a>.</h3>
+            <h3>Brand buttons by <a href="//theaqua.im">Eugene Rodionov</a>. Get on <a href="//github.com/theaqua/BrandButtons"><i class="fa fa-github"></i> GitHub</a>.</h3>
             <h3>
-              <a href="https://gumroad.com/l/social-buttons">Donate</a> or <a href="https://github.com/theaqua/social-buttons.scss/issues">request new button</a>.</h3>
+              <a href="https://gumroad.com/l/BrandButtons">Donate</a> or <a href="//github.com/theaqua/BrandButtons/issues">request new button</a>.</h3>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
-    <script src="https://rawgithub.com/janl/mustache.js/master/mustache.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/list.js"></script>
   </body>
 </html>
