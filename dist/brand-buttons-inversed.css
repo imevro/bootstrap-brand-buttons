@@ -647,12 +647,12 @@
     color: #1194f0; }
 
 .btn-lol-inversed {
-  background-color: #ffc206;
-  border-color: #ffc206;
+  background-color: #d79922;
+  border-color: #d79922;
   color: white; }
   .btn-lol-inversed:hover {
     background-color: transparent;
-    color: #ffc206; }
+    color: #d79922; }
 
 .btn-minecraft-inversed {
   background-color: #94c864;
