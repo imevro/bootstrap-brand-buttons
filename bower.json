@@ -1,11 +1,11 @@
 {
   "name": "BrandButtons",
-  "version": "0.2",
+  "version": "0.2.0",
   "homepage": "https://github.com/theaqua/BrandButtons",
   "authors": [
     "Eugene Rodionov <hello@theaqua.im>"
   ],
-  "description": "Brand buttons for Bootstrap 3",
+  "description": "Brand buttons for Bootstrap",
   "main": "dist/brand-buttons.min.css",
   "keywords": [
     "social",
