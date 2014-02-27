@@ -13,7 +13,7 @@
 ### Development install
  * Clone repository `git clone https://github.com/theaqua/BrandButtons.git`
  * Install Grunt.js and CoffeeScript (globally): `npm install -g grunt-cli coffee-script`
- * Go to project `cd brand-buttons.scss`, install dev dependencies: `npm install`
+ * Go to project `cd BrandButtons`, install dev dependencies: `npm install`
  * Run `grunt serve` or `grunt build`
 
 ### License
