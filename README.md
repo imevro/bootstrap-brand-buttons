@@ -22,5 +22,5 @@ MIT
 ### Contributing
 You can request new button as [issue](https://github.com/theaqua/BrandButtons/issues) or [pull request](https://github.com/theaqua/BrandButtons/pulls). Also I have Gumroad for  [donate](https://gumroad.com/l/BrandButtons).
 
-  [1]: http://gm4.in/i/ftv.jpg
+  [1]: http://gm4.in/i/fvi.jpg
   [2]: https://github.com/theaqua/BrandButtons/blob/master/dist/brand-buttons.min.css
