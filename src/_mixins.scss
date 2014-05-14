@@ -3,7 +3,10 @@
   border-color: $color;
   color: $color;
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
     background-color: $color;
     color: rgb(255, 255, 255);
   }
@@ -14,7 +17,10 @@
   border-color: $color;
   color: rgb(255, 255, 255);
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
     background-color: transparent;
     color: $color;
   }
