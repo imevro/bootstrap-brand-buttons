@@ -110,9 +110,6 @@ module.exports = (grunt) ->
           ".tmp/brand-buttons-inversed.css": "<%= yeoman.app %>/brand-buttons-inversed.scss"
 
       dist:
-        options:
-          sourceComments: "none"
-
         files:
           "dist/brand-buttons.css": "<%= yeoman.app %>/brand-buttons.scss"
           "dist/brand-buttons-inversed.css": "<%= yeoman.app %>/brand-buttons-inversed.scss"
@@ -138,7 +135,7 @@ module.exports = (grunt) ->
           "dist/lesscss/brand-buttons-inversed.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
       min:
         options:
-          outputStyle: "compressed"
+          compress: true
         files:
           "dist/lesscss/brand-buttons.min.css": "<%= yeoman.app %>/less/brand-buttons.less"
           "dist/lesscss/brand-buttons-inversed.min.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
