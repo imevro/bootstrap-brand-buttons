@@ -129,6 +129,7 @@ module.exports = (grunt) ->
       dist:
         options:
           sourceComments: "none"
+          sourceMap: true
 
         files:
           "dist/lesscss/brand-buttons.css": "<%= yeoman.app %>/less/brand-buttons.less"
