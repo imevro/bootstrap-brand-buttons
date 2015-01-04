@@ -3,9 +3,9 @@
   "version": "0.2.0",
   "homepage": "https://github.com/theaqua/BrandButtons",
   "author": "Eugene Rodionov <hello@theaqua.im> (http://theaqua.im/)",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/theaqua/BrandButtons.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/theaqua/BrandButtons.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -19,7 +19,8 @@
     "grunt-sass": "",
     "grunt-newer": "~0.5.4",
     "load-grunt-tasks": "~0.2.0",
-    "time-grunt": "~0.2.1"
+    "time-grunt": "~0.2.1",
+    "grunt-contrib-less": "^1.0.0"
   },
   "engines": {
     "node": ">=0.8.0"
