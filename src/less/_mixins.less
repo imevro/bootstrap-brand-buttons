@@ -1,4 +1,4 @@
-._btn(@color) {
+.btn(@color) {
   background-color: transparent;
   border-color: @color;
   color: @color;
@@ -12,7 +12,7 @@
   }
 }
 
-._btn-inversed(@color) {
+.btn-inversed(@color) {
   background-color: @color;
   border-color: @color;
   color: rgb(255, 255, 255);
@@ -26,20 +26,20 @@
   }
 }
 
-._generated-btn(@n, @i: 1) when (@i =< @n) {
+.generated-btn(@n, @i: 1) when (@i =< @n) {
   @btn-name: extract(@brands-name, @i);
   @btn-color: extract(@brands-color, @i);
   &-@{btn-name} {
-    ._btn(@btn-color);
+    .btn(@btn-color);
   }
-  ._generated-btn(@n, (@i + 1));
+  .generated-btn(@n, (@i + 1));
 }
 
-._generated-inversed-btn(@n, @i: 1) when (@i =< @n) {
+.generated-inversed-btn(@n, @i: 1) when (@i =< @n) {
   @btn-name: extract(@brands-name, @i);
   @btn-color: extract(@brands-color, @i);
   &-@{btn-name}-inversed {
-    ._btn-inversed(@btn-color);
+    .btn-inversed(@btn-color);
   }
-  ._generated-inversed-btn(@n, (@i + 1));
+  .generated-inversed-btn(@n, (@i + 1));
 }
