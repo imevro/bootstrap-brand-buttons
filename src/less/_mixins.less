@@ -38,8 +38,8 @@
 ._generated-inversed-btn(@n, @i: 1) when (@i =< @n) {
   @btn-name: extract(@brands-name, @i);
   @btn-color: extract(@brands-color, @i);
-  &-@{btn-name} {
-    ._btn(@btn-color);
+  &-@{btn-name}-inversed {
+    ._btn-inversed(@btn-color);
   }
-  ._generated-btn(@n, (@i + 1));
+  ._generated-inversed-btn(@n, (@i + 1));
 }
