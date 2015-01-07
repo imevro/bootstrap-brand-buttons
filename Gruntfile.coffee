@@ -141,9 +141,15 @@ module.exports = (grunt) ->
           "dist/brand-buttons-inversed.min.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
 
     # Run some tasks in parallel to speed up the build process
+    # You can choose LESS or SASS:
+    # SASS -> server: ["sass:server"]
+    #      -> dist: ["sass:dist", "sass:min"]
+    # LESS -> server: ["less:server"]
+    #      -> dist: ["less:dist", "less:min"]
+    # By default run deploy for SASS
     concurrent:
-      server: ["sass:server", "less:server"]
-      dist: ["sass:dist", "sass:min", "less:dist", "less:min"]
+      server: ["sass:server"]
+      dist: ["sass:dist", "sass:min"]
 
   grunt.registerTask "serve", (target) ->
     if target is "dist"
