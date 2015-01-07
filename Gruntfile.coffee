@@ -129,17 +129,16 @@ module.exports = (grunt) ->
       dist:
         options:
           sourceComments: "none"
-          sourceMap: true
 
         files:
-          "dist/lesscss/brand-buttons.css": "<%= yeoman.app %>/less/brand-buttons.less"
-          "dist/lesscss/brand-buttons-inversed.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
+          "dist/brand-buttons.css": "<%= yeoman.app %>/less/brand-buttons.less"
+          "dist/brand-buttons-inversed.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
       min:
         options:
           compress: true
         files:
-          "dist/lesscss/brand-buttons.min.css": "<%= yeoman.app %>/less/brand-buttons.less"
-          "dist/lesscss/brand-buttons-inversed.min.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
+          "dist/brand-buttons.min.css": "<%= yeoman.app %>/less/brand-buttons.less"
+          "dist/brand-buttons-inversed.min.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
 
     # Run some tasks in parallel to speed up the build process
     concurrent:
