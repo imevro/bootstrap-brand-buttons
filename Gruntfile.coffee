@@ -9,10 +9,10 @@
 module.exports = (grunt) ->
   # Load grunt tasks automatically
   require("load-grunt-tasks") grunt
-  
+
   # Time how long tasks take. Can help when optimizing build times
   require("time-grunt") grunt
-  
+
   # Define the configuration for all the tasks
   grunt.initConfig
     # Project settings
@@ -21,7 +21,7 @@ module.exports = (grunt) ->
       app: "src"
       dist: "dist"
 
-    
+
     # Watches files for changes and runs tasks based on the changed files
     watch:
       sass:
@@ -30,7 +30,12 @@ module.exports = (grunt) ->
           "sass:server"
           "autoprefixer"
         ]
-
+      less:
+        files: ["<%= yeoman.app %>/less/*.less"]
+        tasks: [
+          "less:server"
+          "autoprefixer"
+        ]
       gruntfile:
         files: ["Gruntfile.js"]
 
@@ -45,12 +50,12 @@ module.exports = (grunt) ->
           "<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}"
         ]
 
-    
+
     # The actual grunt server settings
     connect:
       options:
         port: 9000
-        
+
         # Change this to '0.0.0.0' to access the server from outside.
         hostname: "localhost"
         livereload: 35729
@@ -67,7 +72,7 @@ module.exports = (grunt) ->
         options:
           base: "<%= yeoman.dist %>"
 
-    
+
     # Empties folders to start fresh
     clean:
       dist:
@@ -82,7 +87,7 @@ module.exports = (grunt) ->
 
       server: ".tmp"
 
-    
+
     # Add vendor prefixed styles
     autoprefixer:
       options:
@@ -96,7 +101,7 @@ module.exports = (grunt) ->
           dest: ".tmp/styles/"
         ]
 
-    
+
     # Compiles Sass to CSS and generates necessary files if requested
     sass:
       server:
@@ -105,9 +110,6 @@ module.exports = (grunt) ->
           ".tmp/brand-buttons-inversed.css": "<%= yeoman.app %>/brand-buttons-inversed.scss"
 
       dist:
-        options:
-          sourceComments: "none"
-
         files:
           "dist/brand-buttons.css": "<%= yeoman.app %>/brand-buttons.scss"
           "dist/brand-buttons-inversed.css": "<%= yeoman.app %>/brand-buttons-inversed.scss"
@@ -117,9 +119,34 @@ module.exports = (grunt) ->
         files:
           "dist/brand-buttons.min.css": "<%= yeoman.app %>/brand-buttons.scss"
           "dist/brand-buttons-inversed.min.css": "<%= yeoman.app %>/brand-buttons-inversed.scss"
+    # Compiles LESS to CSS and generates necessary files if requested
+    less:
+      server:
+        files:
+          ".tmp/brand-buttons.css": "<%= yeoman.app %>/less/brand-buttons.less"
+          ".tmp/brand-buttons-inversed.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
 
-    
+      dist:
+        options:
+          sourceComments: "none"
+
+        files:
+          "dist/brand-buttons.css": "<%= yeoman.app %>/less/brand-buttons.less"
+          "dist/brand-buttons-inversed.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
+      min:
+        options:
+          compress: true
+        files:
+          "dist/brand-buttons.min.css": "<%= yeoman.app %>/less/brand-buttons.less"
+          "dist/brand-buttons-inversed.min.css": "<%= yeoman.app %>/less/brand-buttons-inversed.less"
+
     # Run some tasks in parallel to speed up the build process
+    # You can choose LESS or SASS:
+    # SASS -> server: ["sass:server"]
+    #      -> dist: ["sass:dist", "sass:min"]
+    # LESS -> server: ["less:server"]
+    #      -> dist: ["less:dist", "less:min"]
+    # By default run deploy for SASS
     concurrent:
       server: ["sass:server"]
       dist: ["sass:dist", "sass:min"]
