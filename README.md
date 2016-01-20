@@ -1,5 +1,5 @@
 # [Brand buttons for Bootstrap](http://theaqua.github.io/bootstrap-brand-buttons/)
-![][1]
+![1]
 
 ### Usage
  * Install from Bower registry: `bower install BrandButtons`
