@@ -1,5 +1,5 @@
-# [Brand buttons for Bootstrap](http://theaqua.github.io/BrandButtons/)
-![Brand buttons for Bootstrap][1]
+# [Brand buttons for Bootstrap](http://theaqua.github.io/bootstrap-brand-buttons/)
+![][1]
 
 ### Usage
  * Install from Bower registry: `bower install BrandButtons`
@@ -22,5 +22,5 @@ MIT
 ### Contributing
 You can request new button as [issue](https://github.com/theaqua/BrandButtons/issues) or [pull request](https://github.com/theaqua/BrandButtons/pulls). Also I have Gumroad for  [donate](https://gumroad.com/l/BrandButtons).
 
-  [1]: http://gm4.in/i/fvi.jpg
+  [1]: https://i.gyazo.com/33fae98f2ec16c48d6cde276483cc54c.gif
   [2]: https://github.com/theaqua/BrandButtons/blob/master/dist/brand-buttons.min.css
