@@ -1,11 +1,18 @@
 {
-  "name": "brandbuttons",
-  "version": "0.2.0",
-  "homepage": "https://github.com/theaqua/BrandButtons",
-  "author": "Eugene Rodionov <hello@theaqua.im> (http://theaqua.im/)",
+  "name": "bootstrap-brand-buttons",
+  "version": "0.2.1",
+  "homepage": "https://github.com/evgenyrodionov/bootstrap-brand-buttons",
+  "author": "Evgeny Rodionov <github@erodionov.ru> (http://erodionov.ru/)",
   "repository": {
     "type": "git",
-    "url": "http://github.com/theaqua/BrandButtons.git"
+    "url": "http://github.com/evgenyrodionov/BrandButtons.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "prepublish": "grunt build"
   },
   "dependencies": {},
   "devDependencies": {

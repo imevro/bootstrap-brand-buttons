@@ -1,9 +1,9 @@
 {
   "name": "brandbuttons",
   "version": "0.2.1",
-  "homepage": "https://github.com/theaqua/BrandButtons",
+  "homepage": "https://github.com/evgenyrodionov/bootstrap-brand-buttons",
   "authors": [
-    "Eugene Rodionov <hello@theaqua.im>"
+    "Evgeny Rodionov <github@erodionov.ru> (http://erodionov.ru/)"
   ],
   "description": "Brand buttons for Bootstrap",
   "main": "dist/brand-buttons.min.css",

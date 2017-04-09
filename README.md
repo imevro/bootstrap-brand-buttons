@@ -2,7 +2,7 @@
 ![Brand buttons for Bootstrap][1]
 
 ### Usage
- * Install from Bower registry: `bower install BrandButtons`
+ * Install: `npm install bootstrap-brand-buttons`
  * Include [`brand-buttons.min.css`][2] to your file: `<link rel="stylesheet" src="dist/brand-buttons.min.css">`
  * Use as Bootstrap button: `<button class="btn btn-facebook">Facebook</button>` or `<a href="" class="btn btn-facebook">Facebook</a>`
  * You can:
