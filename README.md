@@ -3,7 +3,7 @@
 
 ### Usage
  * Install: `npm install bootstrap-brand-buttons`
- * Include [`brand-buttons.min.css`][2] to your file: `<link rel="stylesheet" src="dist/brand-buttons.min.css">`
+ * Include `dist/brand-buttons.min.css` to your file: `<link rel="stylesheet" src="dist/brand-buttons.min.css">`
  * Use as Bootstrap button: `<button class="btn btn-facebook">Facebook</button>` or `<a href="" class="btn btn-facebook">Facebook</a>`
  * You can:
   * Use different sizes: `btn-xs`, `btn-sm`, `btn-lg` or `btn-block`
@@ -23,4 +23,3 @@ MIT
 You can request new button as [issue](https://github.com/evgenyrodionov/bootstrap-brand-buttons/issues) or [pull request](https://github.com/evgenyrodionov/bootstrap-brand-buttons/pulls). Also I have Gumroad for  [donate](https://gumroad.com/l/bootstrap-brand-buttons).
 
   [1]: http://i.imgur.com/5fl8HOF.png
-  [2]: https://github.com/evgenyrodionov/bootstrap-brand-buttons/blob/master/dist/brand-buttons.min.css
